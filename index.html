@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script type="text/javascript" src="./js/config.js"></script>
+    <script type="text/javascript" src="./js/client.js"></script>
+    <style>
+      body {
+        background: white; }
+      section {
+
+        background: #E8E8E8;
+        color: #FFBB00;
+        border-radius: 1em;
+        padding: 1em;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%) }
+    </style>
+    <title>Mosaic</title>
+  </head>
+  <body>
+<section>
+
+  <h1>Image to Mosaic Tiles</h1>
+
+
+  <br>
+  <img src="" height="auto" width="auto"id="myImg">
+  <input type="file" onchange="loadPreview()" class="file">
+  <br>
+
+  <p><button id="draw" onclick="cutImageUp()">Draw</button></p>
+</section>
+  </body>
+</html>
