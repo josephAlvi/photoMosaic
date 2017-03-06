@@ -25,6 +25,7 @@ Server Side:
 
 To Run:
 => at root directory type npm start
+=> use the images in images folder to best demonstrate it as the color of the images makes it easy to spot averaged out color tiles and also it is not yet tested against large images
 
 Requires;
 => node js
